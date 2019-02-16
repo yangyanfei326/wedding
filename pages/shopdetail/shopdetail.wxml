@@ -1,0 +1,43 @@
+<!--pages/shopdetail/shopdetail.wxml-->
+<view class="shopDetail">
+    <!-- :分隔块-->
+  <view class="divider"></view>
+<!-- :详情策划-->
+  <view class="caseShare">
+    <text>- XX婚礼策划 -</text>
+  </view>
+    <!-- :分隔块-->
+  <view class="divider"></view>
+<!-- :服务描述-->
+  <view class="detailDesc">
+    <p class="detailDescTitle">服务描述</p>
+    <view>归属感”是你强烈地想和他在一起。“安全感”是你觉得他强烈地想和你在一起。 “幸福感”是彼此都强烈的想在一起而最终走在了一起 ​​。
+    </view>
+    <view>承接婚礼策划实施的专业机构。 婚庆全程策划执行，礼仪庆典，商业演出，开业庆典，周年庆典，剪彩仪式，开工仪式。开幕仪式，奠基仪式，入住仪式，楼盘开幕。
+    </view>
+    <p class="detailDescTitle">服务描述</p>
+    <view> <span>免费上门</span><span>经验丰富</span> <span>服务周到</span></view>
+    <button>马上咨询</button>
+  </view>
+  <!-- :分隔块-->
+  <view class="divider"></view>
+<!--服务案例-->
+  <view class="index-enter">
+      <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCYkMLgBSiK95vgBDDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCPkMLgBSiEjfzmAzDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCSkMLgBSiXnMenBzDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCVkMLgBSjMuZ_vBjDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+    </view>
+</view>

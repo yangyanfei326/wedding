@@ -1,0 +1,45 @@
+.caseShare{
+  width:100%;
+  height:120rpx;
+  line-height:120rpx;
+  text-align:center;
+  border-bottom:1px solid #ccc;
+  font-size:14px;
+}
+.contactForm>view{
+  padding:20rpx 30rpx 0;
+  font-size:14px;
+}
+.Form-text>text{
+  color:#f00;
+}
+.Form-input>input{
+  padding:20rpx;
+  background:#eee;
+  height:70rpx;
+  line-height:70rpx;
+  text-indent:20rpx;
+}
+.Form-input .weddingService{
+  display:inline-block;
+  width:150rpx;
+  height:50rpx;
+  line-height:50rpx;
+  font-size:12px;
+  text-align:center;
+  margin:0 20rpx;
+  border:1px solid #000;
+  border-radius:10rpx;
+}
+.Form-input>.cur{
+  background:#f00
+}
+.form-submit{
+  width:95%;
+  height:100rpx;
+  line-height:100rpx;
+  margin:20rpx;
+  background:rgb(237, 93, 41);
+  color:#fff;
+  font-size:12px;
+}

@@ -1,0 +1,45 @@
+.caseShare{
+  width:100%;
+  height:120rpx;
+  line-height:120rpx;
+  text-align:center;
+  border-bottom:1px solid #ccc;
+  font-size:14px;
+}
+/* pages/message/message.wxss */
+/*2:卡片*/
+.card{
+  height:500rpx;
+  border:1rpx solid #ddd;
+  border-radius: 20rpx;/*圆角*/
+  margin:20rpx;
+  position:relative;
+}
+.card-title{
+  font-size:20px;    /*标题文字大小*/
+  margin:20rpx;/*底部外补丁*/   
+}
+.card-image{
+  width:100%;   /*默认宽度 100%*/
+  height:100%;
+  border-radius: 20rpx;/*圆角*/
+}
+.card-msg{
+  width:97.5%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background-color: rgba(0,0,0,.2);
+  border-radius: 20rpx;/*圆角*/
+  padding:0 10rpx;
+  display:flex;
+  justify-content:space-between;
+}
+.card-msg text{
+ font-size:14px;
+ color:#fff;
+}
+
+
+
+

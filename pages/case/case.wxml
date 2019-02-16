@@ -1,0 +1,19 @@
+<view class="app-case">
+  <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACCH1sPgBSjIyahwMO4FOIQCQGU.png" style="width:100%; height:300rpx"></image>
+  <!-- :分隔块-->
+  <view class="divider"></view>
+  <!--案例分享-->
+  <view class="caseShare">
+    <text>- 案例分享 -</text>
+  </view>
+  <!--案例列表-->
+  <view  class="card" wx:for="{{caselist}}" wx:key="index">
+    <!-- image 默认320*240-->
+    <image class="card-image" lazy-load='true' mode="aspectFill" src="{{item.img_url}}"></image>
+    <view class="card-msg">
+      <text class="card-title">{{item.detail}}</text>
+      <text class="card-title">{{item.num}}张</text>
+    </view>
+  </view>
+</view>
+

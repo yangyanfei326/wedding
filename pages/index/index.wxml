@@ -1,0 +1,111 @@
+<view class="index-container">
+    <!-- 1:轮播图-->
+    <view class="slider">
+       <swiper autoplay>
+          <swiper-item wx:for="{{list}}" wx:key="id">
+             <image src="{{item.img_url}}" lazy-load mode="aspectFill"></image>
+          </swiper-item>
+       </swiper>
+    </view>
+    <!-- 2:九宫格-->
+    <view class="index-nav">
+      <view class="nav-item" wx:for="{{navlist}}" wx:key="index">
+          <image bindtap="handleTap" data-id="{{item.id}}" src="{{item.img_url}}"></image>
+          <text>{{item.title}}</text>
+      </view>    
+    </view>
+    <!-- 3:分隔块-->
+    <view class="divider"></view>
+    <!-- 4:婚礼策划-->
+    <view class="wedding-plan">
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACCkjMLgBSjQtvXrBDDuBTh4QGU.png" style="width:375px;height:62px"></image>
+      <view>
+        <text>婚礼策划</text>
+        <text>Planning</text>
+      </view>
+    </view>
+    <!-- 5:分隔块-->
+    <view class="divider"></view>
+    <!-- 6:西式婚礼  -->
+    <view class="index-enter">
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCYkMLgBSiK95vgBDDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCPkMLgBSiEjfzmAzDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCSkMLgBSiXnMenBzDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+       <navigator class="enter-item" url="/pages/shopdetail/shopdetail">
+         <image src="/pages/static/AFEI4vIdEAQYACCVkMLgBSjMuZ_vBjDuBTj0A0Bl.png"></image>
+         <text>西式婚礼</text>
+       </navigator>
+    </view>
+    <!-- 7：分隔块-->
+    <view class="divider"></view>
+    <!-- 8：旅拍分享-->
+    <view class="wedding-plan">
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACCkjMLgBSjQtvXrBDDuBTh4QGU.png" style="width:375px;height:62px"></image>
+      <view>
+        <text>旅拍分享</text>
+        <text>Shoting</text>
+      </view>
+    </view>
+    <!-- 9：分隔块-->
+    <view class="divider"></view>
+    <!-- 10:横向滑动轮播图-->
+    <view class="scroll_box"> 
+      <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+        <view class="item_list" wx:for="{{listx}}"  wx:key="index">
+          <image src="{{item.img_url}}" style="width:380rpx;height:250rpx" mode="aspectFill"></image>
+          <view class="item_book_text">旅拍热门款</view>
+          <view class="item_book_text">{{item.msg}}</view>
+        </view>
+      </scroll-view>
+    </view>
+    <!-- 10：分隔块-->
+    <view class="divider"></view>
+    <!--婚礼策划咨询-->
+    <view class="wedding-chat">
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACD0n8LgBSiboMTdAjDuBTj6AUBl.png" style="width:375px;height:125px" lazy-load='true' mode='aspectFill'></image>
+      <text class="text1">婚礼策划咨询</text>
+      <text>快速咨询婚礼流程/业务</text>
+    </view>
+    <!-- 分隔块-->
+    <view class="divider"></view>
+    <!-- 11：商家推荐-->
+    <view class="wedding-plan">
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACCkjMLgBSjQtvXrBDDuBTh4QGU.png" style="width:375px;height:62px"></image>
+      <view>
+        <text>商家推荐</text>
+        <text>Recommend</text>
+      </view>
+    </view>
+      <!-- 分隔块-->
+    <view class="divider"></view>
+    <!-- 12:XX幸福婚礼策划  -->
+    <view wx:for="{{weddingShop}}" wx:key="index">
+      <view class="wedding-XX">
+        <view class="wedding-X-left">
+          <view class="wedding-XX-name">{{item.name}}</view>
+          <view  class="wedding-XX-detail">{{item.detail}}</view>
+          <view>
+             <text class="wedding-XX-text">免费设计</text>
+             <text class="wedding-XX-text">免出城费</text>
+          </view>
+        </view>
+        <view class="wedding-X-right">
+          <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACDYwsLgBSjYncrFBTA9OEJAZQ.png" style="width:31px; height:33px"></image>
+          <navigator url="/pages/shopdetail/shopdetail">商家详情</navigator>
+        </view>
+      </view>
+      <!-- 分隔块-->
+      <view class="divider"></view>
+    </view>
+    
+    <!-- 5:tabbar  -->
+</view>

@@ -1,0 +1,49 @@
+<view class="app-case">
+  <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACCH1sPgBSjIyahwMO4FOIQCQGU.png" style="width:100%; height:300rpx"></image>
+  <!-- :分隔块-->
+  <view class="divider"></view>
+  <!--案例分享-->
+  <view class="caseShare">
+    <text>- 关于我们 -</text>
+  </view>
+  <!--文字描述-->
+  <view>
+    <view class="aboutUsText">拍婚纱照 找名人婚纱摄影,专注婚纱摄影多年年,更懂婚照艺术,十大私家场馆,尊享私密,六大主题风格+各式礼服,打造浪漫回忆,一站式管家服务给您更舒心的婚照体验!</view>
+    <view class="aboutUsText">精确务实的执行力，并不断探索新的材质和施工工艺加以运用将客户的利益。</view>
+    <view class="aboutUsText">
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACCU8sbgBSjKtuyWBTCBAzjqAUBl.png" style="width:192px; height:117px"></image>
+    </view>
+  </view>
+  <!-- :分隔块-->
+  <view class="divider"></view>
+  <!--服务热线-->
+  <view class="wedding-chat">
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACC7yMfgBSjl8u-TBjDuBTjhAUBl.png" style="width:375px;height:125px" lazy-load='true' mode='aspectFill'></image>
+      <text class="text1">服务热线：000-000-0000</text>
+      <text>我们为客户提供婚庆服务多年</text>
+    </view>
+  <!-- :分隔块-->
+  <view class="divider"></view>
+  <!--主营业务-->
+  <view class="caseShare">
+    <text>- 主营业务 -</text>
+  </view>
+  <!--主营业务图片-->
+  <view class="mainImg">
+    <view class="mainImg_Text">
+      <view>婚礼策划</view>
+      <view>为您带来难忘的婚礼</view>
+    </view>
+    <view>
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACDe6sfgBSjd36-MAjD3AjjmAUBl.png" style="width:100%;height:280rpx;"></image>
+    </view>
+    <view>
+      <image src="http://127.0.0.1:3000/img/AFEI4vIdEAQYACDe6sfgBSjd36-MAjD3AjjmAUBl.png" style="width:100%;height:280rpx;"></image>
+    </view>
+    <view class="mainImg_Text">
+      <view>结婚旅拍</view>
+      <view>畅游世界记录美好</view>
+    </view>
+  </view>
+</view>
+

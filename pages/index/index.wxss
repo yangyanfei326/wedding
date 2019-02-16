@@ -1,0 +1,167 @@
+/*index.wxss*/
+
+/*功能一:轮播图*/
+.slider,.slider swiper,.slider image{
+  height:390rpx;
+  width:100%;
+}
+/*功能二:九宫格*/
+/*父元素*/
+.index-nav{
+   display: flex;
+   flex-wrap:wrap;
+}
+/*子元素*/
+.nav-item{
+  width:25%;
+  height:200rpx;
+  box-sizing: border-box;
+  display: flex;          /*弹性布 局*/
+  flex-direction: column; /*按列方向*/
+  justify-content: center;/*居中*/
+  align-items: center;    /*居中*/
+  font-size:12px;
+  color:#666;
+  margin:5px 0;
+}
+.nav-item:nth-child(3n){
+  border-right:0 none;    /* 3 6 9 去右侧边线*/
+}
+/*子元素中图片*/
+.nav-item image{
+  width:102rpx;
+  height:102rpx;
+}
+/*子元素文字*/
+.nav-item text{
+    margin-top:10rpx;
+}
+/*婚礼策划*/
+.wedding-plan{
+  position:relative;
+}
+.wedding-plan>view{
+  position:absolute;
+  top:50rpx;
+  left:70rpx;
+  color:rgb(78, 71, 71);
+   font-size:14px;
+}
+.wedding-plan>view>text:last-child{
+  color:#999;
+  font-size:12px;
+  margin-left:20rpx;
+}
+/*功能四:四个按钮*/
+.index-enter{
+  display: flex;
+  padding:20rpx 42rpx;
+  flex-wrap:wrap;
+}
+.index-enter .enter-item{
+  width:47%;
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  padding:10rpx;
+  font-size:12px;
+  color:#666;
+  margin-bottom:15rpx;
+}
+.index-enter .enter-item text{
+  margin:15rpx;
+}
+.index-enter image{
+  width:320rpx;
+  height:190rpx;
+}
+/*横向滑动轮播图*/
+.scroll_box{
+width: 100%;
+height: 400rpx;
+overflow: hidden;
+padding: 20rpx;
+background: #fff;
+white-space: nowrap;
+}
+.item_list{
+width: 380rpx;
+height: auto;
+margin-right: 23rpx;
+display: inline-block;
+font-size:12px;
+border: 1px solid #f1f1f1;
+border-top: 0;
+border-radius: 0 0 4px 4px
+}
+.item_book_text{
+  padding:10rpx;
+}
+/*婚礼策划咨询*/
+.wedding-chat{
+  position:relative;
+}
+.wedding-chat text{
+  position:absolute;
+}
+.text1{
+  top:29%;
+  left:30%;
+  font-size:20px;
+  font-weight:bold;
+  color:rgb(236, 93, 41);
+}
+.wedding-chat text:last-child{
+  top:52%;
+  left:27%;
+  font-size:14px;
+  color:#666;
+}
+/*幸福婚礼策划*/
+.wedding-XX{
+  display:flex;
+  justify-content: space-between;
+}
+.wedding-X-left{
+  width:70%;
+  padding:20px 0 20px 20px;
+  margin:0
+}
+.wedding-X-right{
+  width:25%;
+  padding-top:25px;
+}
+.wedding-XX-name{
+  font-size:14px;
+  color:#333;
+  padding:3px;
+}
+.wedding-XX-detail{
+  font-size:12px;
+  color:#999;
+  padding:3px;
+  margin-bottom:5px;
+}
+.wedding-XX-text{
+  padding:5px;
+  background:#eee;
+  color:#999;
+  font-size:12px;
+  margin-right:5px;
+  border-radius:3px;
+}
+.wedding-X-right image{
+  margin-left:40rpx;
+}
+.wedding-X-right navigator{
+  background:#f00;
+  width:160rpx;
+  height:70rpx;
+  line-height:70rpx;
+  text-align:center;
+  color:#fff;
+  border-radius:3px;
+  font-size:12px;
+}
+
+

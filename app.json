@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/contactUs/contactUs",
+    "pages/aboutUs/aboutUs",
+    "pages/shopdetail/shopdetail",
+    "pages/case/case"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "婚庆",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/static/000002.png",
+        "selectedIconPath": "pages/static/000007.png"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "幸福案例",
+        "iconPath": "pages/static/0000012.png",
+        "selectedIconPath": "pages/static/0000017.png"
+      },
+      {
+        "pagePath": "pages/aboutUs/aboutUs",
+        "text": "关于我们",
+        "iconPath": "pages/static/0000042.png",
+        "selectedIconPath": "pages/static/0000047.png"
+      },
+      {
+        "pagePath": "pages/contactUs/contactUs",
+        "text": "联系我们",
+        "iconPath": "pages/static/0000052.png",
+        "selectedIconPath": "pages/static/0000057.png"
+      }
+    ]
+  }
+}

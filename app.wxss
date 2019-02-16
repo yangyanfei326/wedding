@@ -1,0 +1,6 @@
+/**app.wxss**/
+/*通用功能一:添加分隔块*/
+.divider{
+  height:20rpx;
+  background:#f1f1f1;
+}
